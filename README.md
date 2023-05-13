@@ -1,7 +1,7 @@
 # TypeScript Starter Template
 
-Based on [microsoft/TypeScript-Node-Starter](https://github.com/microsoft/TypeScript-Node-Starter).
+This template is derived from [microsoft/TypeScript-Node-Starter](https://github.com/microsoft/TypeScript-Node-Starter).
 
-This library is designed to be generic for the package manager. It supports `npm`, `pnpm`, and `yarn`. Edit `package.json` to add your information, then run `npm/pnpm/yarn install` to initialize.
+In the `package.json` file, replace every occurrence of `\"$npm_execpath\"` with your preferred package manager, for instance, `npm`, `pnpm`, or `yarn`. Then tailor these files according to your needs.
 
-Note that if you are using yarn, you need to add related entries in `.gitignore`. The entries depend on whether you are using zero-installs. Check [the official doc about which files should be gitignored](https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored).
+If you've chosen to use `yarn`, remember to add the relevant entries into the `.gitignore` file. The entries will differ based on whether you've decided to use zero-installs. Consult [the official documentation](https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored) for guidance on which files should be included in `.gitignore`.
