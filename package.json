@@ -1,11 +1,13 @@
 {
     "name": "ts-starter",
+    "type": "module",
     "version": "1.0.0",
     "description": "TypeScript project template",
     "author": "Jason5Lee",
     "license": "ISC",
     "keywords": [],
     "main": "dist/index.js",
+    "sideEffects": true,
     "scripts": {
         "build": "shx rm -rf dist/ && tsc",
         "lint": "tsc --noEmit && eslint \"**/*.{js,ts}\" --fix",
